@@ -7,5 +7,10 @@ management:
       exposure:
         include: health,info,refresh
 
+eureka:
+  client:
+    refresh:
+      enable: false
+
 ticketflow:
   message: "Bienvenue dans TicketFlow - configuration v2"
